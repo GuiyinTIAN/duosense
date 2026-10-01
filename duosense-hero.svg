@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" viewBox="110 125 890 535" aria-label="DuoSense based on the supplied assembly view: mmWave board on the left and protruding LiDAR on the right">
+<defs><linearGradient id="blackMount" x2="0" y2="1"><stop stop-color="#29302d"/><stop offset="1" stop-color="#0d1310"/></linearGradient><linearGradient id="topshade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#535c53"/><stop offset="1" stop-color="#323e36"/></linearGradient><pattern id="grain" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H5" stroke="#bcc8b7" stroke-opacity=".045"/></pattern><filter id="soft"><feGaussianBlur stdDeviation="11"/></filter><linearGradient id="body" x2="1" y2="1"><stop stop-color="#283541"/><stop offset="1" stop-color="#1c2631"/></linearGradient><linearGradient id="metal" x2="0" y2="1"><stop stop-color="#dae0e5"/><stop offset=".5" stop-color="#a5b0bb"/><stop offset="1" stop-color="#7c8a98"/></linearGradient><linearGradient id="lidar" x2="0" y2="1"><stop stop-color="#aeb9c3"/><stop offset=".2" stop-color="#52616f"/><stop offset="1" stop-color="#202c38"/></linearGradient><marker id="blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#35658b"/></marker><marker id="orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#c65d16"/></marker></defs>
+<ellipse cx="541" cy="502" rx="265" ry="20" fill="#24332a" opacity=".15" filter="url(#soft)"/>
+<g transform="translate(-40 -19)">
+<path d="M780 296 818 293C850 295 856 431 822 439L780 440Z" fill="url(#lidar)" stroke="#73818d"/>
+</g><!-- Resized enclosure -->
+<path d="M255 232 620 205 749 230 382 258Z" fill="url(#topshade)" stroke="#727d6d" stroke-width="1"/>
+<path d="M255 232 382 258 382 486 255 458Z" fill="#152018"/>
+<path d="M382 258 749 230 749 464 382 486Z" fill="#1c2720"/>
+<path d="M445 255 690 235 690 467 445 483Z" fill="url(#body)" stroke="#54614f"/><path d="M445 255 690 235 690 467 445 483Z" fill="url(#grain)"/><text x="470" y="365" transform="rotate(-3 470 365)" fill="#bbc6b4" font-family="monospace" font-size="22" letter-spacing="3">DuoSense</text><path d="M470 379 661 368" stroke="#88977d" stroke-width="1"/><text x="470" y="405" transform="rotate(-3 470 405)" fill="#87967b" font-family="monospace" font-size="9" letter-spacing="1.6">CONTACTLESS SENSING</text>
+<path d="M260 446 380 469 380 485 260 459Z" fill="#828e99"/>
+<g fill="#111b24" stroke="#40515f" stroke-width="2"><ellipse cx="457" cy="269" rx="5" ry="7"/><ellipse cx="679" cy="248" rx="5" ry="7"/><ellipse cx="457" cy="468" rx="5" ry="7"/><ellipse cx="679" cy="453" rx="5" ry="7"/></g>
+<g transform="translate(40 -19)">
+<path d="M238 284 323 301 323 479 238 461Z" fill="#9bb9b7"/>
+<path d="M231 288 316 306 316 483 231 465Z" fill="#355f56" stroke="#3a9a89"/>
+<path d="M244 280 322 297 322 304 244 287Z" fill="#a6b7bd"/>
+<g fill="#163e3d" stroke="#51a99a"><ellipse cx="239" cy="299" rx="2" ry="4"/><ellipse cx="308" cy="316" rx="2" ry="4"/><ellipse cx="239" cy="455" rx="2" ry="4"/><ellipse cx="308" cy="473" rx="2" ry="4"/></g>
+</g><g data-material="mount">
+<path d="M466 188V222C466 237 568 237 568 221V187" fill="url(#blackMount)" stroke="#3c4740"/>
+<ellipse cx="517" cy="187" rx="51" ry="10" fill="#202a23"/>
+<path d="M426 172V183C426 206 608 206 608 183V172" fill="url(#blackMount)" stroke="#3c4740"/>
+<ellipse cx="517" cy="172" rx="91" ry="15" fill="url(#blackMount)" stroke="#4b554d"/>
+<g fill="#8897a5"><ellipse cx="458" cy="171" rx="4" ry="1.8"/><ellipse cx="576" cy="171" rx="4" ry="1.8"/><ellipse cx="517" cy="180" rx="4" ry="1.8"/><ellipse cx="517" cy="164" rx="4" ry="1.8"/><ellipse cx="517" cy="172" rx="7" ry="2"/></g>
+<circle cx="512" cy="220" r="4" fill="#dae1e7"/>
+</g><!-- Sparse callouts retain the hardware silhouette. -->
+<g fill="none" stroke="#8497a6" stroke-width="1.2"><path d="M306 350H173V302"/><circle cx="306" cy="350" r="3"/><path d="M791 314 833 249H951"/><circle cx="791" cy="314" r="3"/></g>
+<g fill="#354f63" font-size="16"><text x="128" y="281">mmWave radar</text><text x="840" y="232">Side-mounted LiDAR</text></g>
+<!-- Sparse scan guide, keeping the product silhouette uncluttered. -->
+
+<path d="M833 437C878 426 890 307 849 282" fill="none" stroke="#c65d16" stroke-width="2" marker-end="url(#orange)"/>
+
+<path d="M800 475C736 551 341 574 223 484" fill="none" stroke="#35658b" stroke-width="2" marker-end="url(#blue)"/>
+<g font-size="13"><path d="M333 636H358" stroke="#35658b" stroke-width="2"/><text x="369" y="640" fill="#354f63">Assembly rotation</text><path d="M581 636H606" stroke="#c65d16" stroke-width="2"/><text x="617" y="640" fill="#354f63">LiDAR internal scan</text></g>
+</svg>
